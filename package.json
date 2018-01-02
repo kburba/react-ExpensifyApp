@@ -30,6 +30,7 @@
     "moment": "2.18.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
+    "numeral": "2.0.6",
     "react": "15.6.1",
     "react-addons-shallow-compare": "15.6.0",
     "react-dates": "12.3.0",
@@ -44,7 +45,7 @@
     "validator": "8.0.0",
     "webpack": "3.1.0"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "jest": "20.0.4",
     "webpack-dev-server": "2.5.1"
   }
