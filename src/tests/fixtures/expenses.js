@@ -18,9 +18,4 @@ export default [{
   note: '',
   amount: 3500,
   createdAt: moment(0).add(4, 'days').valueOf()
-  }, {
-    description: 'Testing mock store',
-    note: 'blahblah',
-    amount: 1000,
-    createdAt: moment(0).add(15, 'days').valueOf()
-  }];
+}];

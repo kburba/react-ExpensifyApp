@@ -28,11 +28,5 @@ exports[`should render ExpenseList with expenses 1`] = `
     key="3"
     note=""
   />
-  <ExpenseListItem
-    amount={1000}
-    createdAt={1296000000}
-    description="Testing mock store"
-    note="blahblah"
-  />
 </div>
 `;
