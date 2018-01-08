@@ -16,6 +16,11 @@ export default [{
   id: '3',
   description: 'Credit Card',
   note: '',
-  amount: 4500,
+  amount: 3500,
   createdAt: moment(0).add(4, 'days').valueOf()
-}];
+  }, {
+    description: 'Testing mock store',
+    note: 'blahblah',
+    amount: 1000,
+    createdAt: moment(0).add(15, 'days').valueOf()
+  }];
