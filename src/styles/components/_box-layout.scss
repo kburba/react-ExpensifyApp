@@ -1,0 +1,44 @@
+.box-layout {
+    align-items: center;
+    background: url('/images/background.jpg');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-layout__box {
+    background: fade-out(white, .5);
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 25rem;
+}
+
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
+
+.box-layout__button {
+    background-color: $light-blue;
+    border: 0;
+    color: white;
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1;
+    padding: $s-size $m-size;
+    text-decoration: none;
+}
+
+.box-layout__link {
+    background: none;
+    border: 0;
+    color: white;
+    line-height: 1;
+}
+
+.box-layout__secondary-button {
+    @extend .box-layout__button;
+        background-color: #888888;
+}
